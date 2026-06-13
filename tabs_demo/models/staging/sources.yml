@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw
+    database: TABS_DEMO
+    schema: RAW
+    tables:
+      - name: customers
+      - name: contracts
+      - name: invoices
+      - name: payments

@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: stg_contracts
+    description: "Cleaned contracts from raw source"
+    columns:
+      - name: contract_id
+        description: "Unique contract identifier"
+        tests:
+          - unique
+          - not_null
+      - name: status
+        tests:
+          - accepted_values:
+              values: ['active', 'churned']
+
+  - name: stg_invoices
+    columns:
+      - name: invoice_id
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: customer_id

@@ -1,0 +1,9 @@
+*.env*
+*venv*
+*__pycache__*
+.DS_Store
+dbt_packages/
+tabs_demo/target/
+tabs_demo/dbt_packages/
+*.pyc
+logs/

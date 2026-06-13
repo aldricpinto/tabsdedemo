@@ -1,0 +1,6 @@
+snowflake-connector-python 
+faker 
+pandas
+dbt-snowflake
+python-dotenv
+snowflake-connector-python[pandas]
