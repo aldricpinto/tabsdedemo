@@ -32,7 +32,7 @@ A complete pipeline from raw business data to production-ready revenue metrics:
 
 ## How the data flows
 
-![Lineage Graph](images/lineage_graph.png)
+![Lineage Graph](images/lineage_graph_dbt.png)
 
 Raw tables → Staging (cleaned) → `fct_revenue` (invoices joined to payments) → `metrics_summary` (single row of KPIs)
 
