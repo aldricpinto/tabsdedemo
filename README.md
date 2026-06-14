@@ -39,6 +39,8 @@ Raw tables → Staging (cleaned) → `fct_revenue` (invoices joined to payments)
 Every arrow in that graph is an explicit dependency managed by dbt. If something breaks upstream, nothing downstream runs.
 
 ---
+![DBT Tests](images/dbt_tests.png)
+![Tabs Metrics](images/snowflake_metrics.png)
 
 ## What's in this project
 
