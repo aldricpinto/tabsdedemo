@@ -40,7 +40,11 @@ Every arrow in that graph is an explicit dependency managed by dbt. If something
 
 ---
 ![DBT Tests](images/dbt_tests.png)
+
+---
 ![Tabs Metrics](images/snowflake_metrics.png)
+
+---
 
 ## What's in this project
 
