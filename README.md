@@ -2,7 +2,7 @@
 
 A mock data stack built to demonstrate how I'd approach the first data engineer role at Tabs.
 
-Tabs automates the contract-to-cash lifecycle. The data infrastructure underneath that — pipelines, models, metrics, quality checks — is what this project is about.
+Tabs automates the contract-to-cash lifecycle. The data infrastructure underneath that (pipelines, models, metrics, quality checks) is what this project is about.
 
 ---
 
@@ -10,10 +10,10 @@ Tabs automates the contract-to-cash lifecycle. The data infrastructure underneat
 
 A complete pipeline from raw business data to production-ready revenue metrics:
 
-- **Generated** synthetic contract-to-cash data — customers, contracts, invoices, payments
+- **Generated** synthetic contract-to-cash data (customers, contracts, invoices, payments)
 - **Loaded** it into Snowflake as raw tables
 - **Transformed** it with dbt into clean, analytics-ready models
-- **Tested** data quality automatically — uniqueness, nullability, referential integrity
+- **Tested** data quality automatically (uniqueness, nullability, referential integrity)
 - **Surfaced** the metrics a finance team at Tabs would actually care about
 
 ---
